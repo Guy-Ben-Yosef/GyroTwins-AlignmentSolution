@@ -29,7 +29,6 @@ A user-friendly toolkit designed for engineers and researchers to seamlessly add
 
 ## Features
 
-- **Interactive GUI:** Streamlined data input and rich visualization capabilities.
 - **Modular Architecture:** Designed for future enhancements, extensions, and integration with other GNC tools.
 - **Comprehensive Documentation:** Covering the mathematical foundation, best practices, and practical applications.
 
@@ -38,20 +37,11 @@ A user-friendly toolkit designed for engineers and researchers to seamlessly add
 ## Installation
 
 1. Clone the repository:
-```git
+```
 git clone https://github.com/YourUsername/GyroTwins-AlignmentSolution.git
 ```
 
-2. Navigate to the directory and install the required dependencies:
-```
-cd GyroTwins-AlignmentSolution
-pip install -r requirements.txt
-```
-
-3. Run the main script to launch the application:
-```
-python main.py
-```
+2. Run the `main.m` script to launch the application.
 
 ---
 
