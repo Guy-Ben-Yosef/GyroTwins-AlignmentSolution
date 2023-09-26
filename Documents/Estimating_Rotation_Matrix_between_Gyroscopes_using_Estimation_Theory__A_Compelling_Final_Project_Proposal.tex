@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Final Project Proposal},
+    pdfpagemode=FullScreen,
+    }
+\pagenumbering{gobble}
+
+\title{A Final Project Proposal: Estimating Rotation Matrix between Gyroscopes using Estimation Theory}
+\author{Noam Iluz, Guy Ben-Yosef}
+\date{July 2023}
+
+\begin{document}
+
+\maketitle
+
+\textbf{Introduction:}
+This paper presents a final project proposal for the Estimation Theory course, focusing on the estimation of the rotation matrix between two gyroscopes mounted on the same rigid body. The goal is to showcase the practical application and significance of estimation theory in the field of Guidance, Navigation, and Control (GNC) engineering.
+\\
+
+\textbf{Objective:}
+The objective of this project is to address the research gap in applying the Orthogonal Procrustes problem to estimate the rotation matrix between gyroscopes. By leveraging estimation theory principles, the project aims to demonstrate the effectiveness of the Orthogonal Procrustes problem in solving a practical problem encountered in GNC engineering.
+\\
+
+\textbf{Methodology:}
+The proposed methodology focuses on estimating the rotation matrix between two gyroscopes mounted on the same rigid body. Since the gyroscopes are mounted on the same body, they should measure the same angular velocities but in different coordinate systems. The goal is to align the measurements obtained from the two gyroscopes using estimation theory principles. The Orthogonal Procrustes problem will serve as the fundamental framework, utilizing an orthogonal matrix to align the measurements in a least squares sense. By applying this methodology, we aim to accurately estimate the rotation matrix that aligns the gyroscopic measurements, considering their different coordinate systems on the same rigid body.
+\\
+
+\textbf{Importance:}
+Accurate determination of relative orientations between gyroscopes is crucial for navigation, attitude control, and sensor fusion tasks in GNC engineering. However, the specific application of the Orthogonal Procrustes problem to aligning gyroscopic measurements remains relatively unexplored. This project aims to contribute to the field by providing insights into the accuracy, robustness, and practical implications of the proposed methodology.
+\\
+
+\textbf{Approach:}
+The project will review the Orthogonal Procrustes problem, emphasizing its relevance to estimation theory and its potential in GNC engineering. The reference paper by Peter H. Schonemann, "A Generalized Solution of the Orthogonal Procrustes Problem" (\href{https://doi.org/10.1007/BF02289451}{https://doi.org/10.1007/BF02289451}), will serve as a significant starting point, offering insights into the mathematical formulation, algorithm, and statistical properties of the problem.
+\\
+
+The proposed final project on estimating the rotation matrix between gyroscopes provides an exciting opportunity to apply estimation theory principles in a practical and meaningful manner. By showcasing the power of estimation techniques in solving real-world problems and their relevance to GNC engineering, this project aligns with the objectives of the Estimation Theory course. The research outcomes will contribute to advancing the understanding and application of estimation techniques in GNC systems, providing valuable insights for the field.
+
+\end{document}
